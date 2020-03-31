@@ -1,0 +1,29 @@
+.header-container {
+    display: grid;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    grid-template-rows: auto 250px 1fr;
+
+}
+
+.pug-pen-body {
+    justify-self: center;
+}
+
+.pug-picture {
+    width: 750px;
+    justify-self: center;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    justify-self: center;
+}
